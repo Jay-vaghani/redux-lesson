@@ -1,10 +1,10 @@
 import { Box, Stack } from "@mui/system";
-import Counter from "./features/counter/Counter";
+import Post from "./features/post/Post";
 
 function App() {
   return (
-    <Stack minHeight={"100vh"} alignItems={"center"} justifyContent={"center"}>
-      <Counter />
+    <Stack minHeight={"100vh"} alignItems={"center"} justifyContent={"start"} pt={2}>
+      <Post />
     </Stack>
   );
 }
